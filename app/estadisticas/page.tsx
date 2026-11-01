@@ -41,7 +41,7 @@ export default function EstadisticasPage() {
       <EncabezadoPagina
         acento="Transparencia"
         titulo="Nuestras estadísticas"
-        descripcion="Cada donación cuenta y se puede seguir. Estos son los números de lo que logramos juntos en los últimos 12 meses."
+        descripcion="Lo que logramos juntos en los últimos 12 meses."
       />
       <div className="mx-auto max-w-6xl space-y-6 px-4 py-16">
         <ul className="grid grid-cols-2 gap-4 lg:grid-cols-4">

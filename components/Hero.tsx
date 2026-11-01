@@ -14,9 +14,8 @@ export default function Hero() {
             <span className="text-crema">nadie ayuda solo.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/80">
-            Quiero Ayudar conecta a quienes quieren donar, transportar o prestar
-            un espacio con las comunidades afectadas por una catástrofe. Vos
-            elegís cómo ayudar; nosotros te decimos dónde hace falta.
+            Te decimos qué hace falta, dónde llevarlo y quién te ayuda a
+            moverlo.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a

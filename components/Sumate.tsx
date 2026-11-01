@@ -9,8 +9,7 @@ export default function Sumate() {
           <span className="text-crema">Tu ayuda puede estar lista.</span>
         </h2>
         <p className="mt-6 max-w-2xl text-lg text-white/80">
-          Registrate hoy y te avisamos cuando tu comunidad te necesite. Ser
-          parte lleva un minuto; el impacto dura mucho más.
+          Sumate hoy y ya vas a estar un paso adelante
         </p>
         <a
           href={URL_REGISTRO}

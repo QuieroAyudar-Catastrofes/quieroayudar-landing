@@ -14,7 +14,7 @@ export default function InformatePage() {
       <EncabezadoPagina
         acento="Informate"
         titulo="Cuidados ante una catástrofe"
-        descripcion="Conocé las medidas de seguridad que podés anticipar para protegerte a vos y a tu familia. Estar preparado también es ayudar."
+        descripcion="Qué hacer antes, durante y después. Estar preparado también es ayudar."
       />
       <div className="mx-auto max-w-6xl px-4 py-16">
         <PestanasCuidados />

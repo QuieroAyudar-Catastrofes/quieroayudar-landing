@@ -4,7 +4,6 @@ import { URL_REGISTRO } from "@/lib/enlaces";
 
 const links = [
   { href: "/#como-funciona", texto: "Cómo funciona" },
-  { href: "/#formas-de-ayudar", texto: "Formas de ayudar" },
   { href: "/#para-entidades", texto: "Para entidades" },
   { href: "/#recursos", texto: "Recursos" },
 ];
@@ -12,7 +11,7 @@ const links = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-20 bg-marino">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-4 pt-6">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-4 py-10">
         <Link href="/" className="text-xl sm:text-2xl">
           <Logo />
         </Link>
@@ -31,7 +30,7 @@ export default function Header() {
           href={URL_REGISTRO}
           className="rounded-md bg-rojo px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-bordo"
         >
-          Registrarse
+          Unirme
         </a>
       </div>
     </header>

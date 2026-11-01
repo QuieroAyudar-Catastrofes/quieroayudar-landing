@@ -6,30 +6,26 @@ import {
 } from "@/components/TarjetaRecurso";
 
 const entidades = {
-  titulo: "Conocé las entidades registradas",
-  descripcion:
-    "Encontrá puntos de donación y centros de acopio cercanos, y conocé cómo podés colaborar cuando se active una emergencia.",
+  titulo: "Entidades registradas",
+  descripcion: "Defensa Civil y bomberos de cada provincia.",
   icono: { src: "/img/icono-entidades.png", ancho: 120, alto: 120 },
 };
 
 const cuidados = {
-  titulo: "Informate sobre los cuidados ante una catástrofe",
-  descripcion:
-    "Conocé las medidas de seguridad que podés anticipar para protegerte ante un evento.",
+  titulo: "Cuidados ante una catástrofe",
+  descripcion: "Qué hacer antes, durante y después.",
   icono: { src: "/img/icono-cuidados.png", ancho: 108, alto: 108 },
 };
 
 const newsletter = {
-  titulo: "Suscribite a nuestro Newsletter",
-  descripcion:
-    "Enterate a tiempo de los pedidos y sé el primero en ayudar. No enviaremos SPAM.",
+  titulo: "Newsletter",
+  descripcion: "Enterate a tiempo de cada pedido. Sin spam.",
   icono: { src: "/img/icono-newsletter.png", ancho: 104, alto: 104 },
 };
 
 const estadisticas = {
-  titulo: "Consultá nuestras estadísticas",
-  descripcion:
-    "Nuestros datos son transparentes y los podés leer antes de realizar tu donación.",
+  titulo: "Estadísticas",
+  descripcion: "Datos abiertos para donar con confianza.",
   icono: { src: "/img/icono-estadisticas.png", ancho: 120, alto: 120 },
 };
 

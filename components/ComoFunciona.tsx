@@ -3,24 +3,20 @@ import { conBase } from "@/lib/rutas";
 
 const pasos = [
   {
-    titulo: "Elegí una emergencia",
-    descripcion:
-      "En el mapa ves las emergencias activas y qué necesita cada zona.",
+    titulo: "Se publica la emergencia",
+    descripcion: "Un ente oficial informa qué insumos hacen falta.",
   },
   {
-    titulo: "Decidí cómo ayudar",
-    descripcion:
-      "Doná objetos o dinero, ofrecé transporte o prestá tu espacio como punto de acopio.",
+    titulo: "Elegís qué llevar",
+    descripcion: "Ves la lista y el centro de acopio más cercano.",
   },
   {
-    titulo: "Coordiná la entrega",
-    descripcion:
-      "Completá tus datos y te indicamos el centro de acopio o la ruta más cercana.",
+    titulo: "Lo llevás o te ayudan",
+    descripcion: "Si no podés moverte, un transportista lo lleva.",
   },
   {
-    titulo: "Seguí tu donación",
-    descripcion:
-      "Mostrá tu QR al entregar y seguí el recorrido: en espera, en camino, entregado.",
+    titulo: "Seguís tu donación",
+    descripcion: "Con un QR sabés cuándo llegó.",
   },
 ];
 
@@ -28,11 +24,11 @@ export default function ComoFunciona() {
   return (
     <section id="como-funciona" className="scroll-mt-16 bg-crema-claro">
       <div className="mx-auto max-w-6xl px-4 py-20">
-        <p className="font-acento tracking-wide text-rojo uppercase">
+        <p className="tracking-wide text-rojo uppercase">
           Cómo funciona
         </p>
         <h2 className="mt-2 text-3xl font-bold sm:text-4xl">
-          De las ganas de ayudar a la ayuda entregada
+          De tus manos a quien lo necesita
         </h2>
         <div className="mt-12 grid items-center gap-12 lg:grid-cols-[1fr_1.4fr]">
           <ol className="space-y-6">

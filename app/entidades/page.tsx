@@ -14,7 +14,7 @@ export default function EntidadesPage() {
       <EncabezadoPagina
         acento="Entidades registradas"
         titulo="Quienes están en la primera línea"
-        descripcion="Defensa Civil y cuerpos de bomberos de todo el país que coordinan la respuesta cuando se activa una emergencia. Conocelos y sabé a quién llamar."
+        descripcion="Los entes oficiales que publican emergencias e insumos. Sabé a quién llamar."
       />
       <div className="mx-auto max-w-6xl px-4 py-16">
         <ListaEntidades />
