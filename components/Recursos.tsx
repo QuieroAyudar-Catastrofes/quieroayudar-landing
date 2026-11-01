@@ -55,14 +55,14 @@ export default function Recursos() {
             <TarjetaNewsletter {...newsletter} />
           </li>
           <li>
-            <a
+            <Link
               href="/estadisticas"
               target="_blank"
               rel="noopener"
               className={claseTarjetaRecurso}
             >
               <ContenidoTarjetaRecurso {...estadisticas} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

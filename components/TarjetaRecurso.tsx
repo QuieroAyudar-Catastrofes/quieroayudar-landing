@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { conBase } from "@/lib/rutas";
 
 export type Icono = { src: string; ancho: number; alto: number };
 
@@ -19,7 +20,7 @@ export function ContenidoTarjetaRecurso({
   return (
     <>
       <Image
-        src={icono.src}
+        src={conBase(icono.src)}
         alt=""
         width={icono.ancho}
         height={icono.alto}

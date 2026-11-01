@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { conBase } from "@/lib/rutas";
 
 export default function Hero() {
   return (
@@ -33,10 +34,10 @@ export default function Hero() {
           </div>
         </div>
         <Image
-          src="/img/cajas.svg"
+          src={conBase("/img/cajas.svg")}
           alt="Cajas de donaciones listas para entregar"
           width={724}
-          height={441}
+          height={744}
           priority
           className="mx-auto w-full max-w-md md:max-w-none"
         />

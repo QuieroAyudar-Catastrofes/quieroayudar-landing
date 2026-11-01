@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { conBase } from "@/lib/rutas";
 
 const pasos = [
   {
@@ -48,7 +49,7 @@ export default function ComoFunciona() {
             ))}
           </ol>
           <Image
-            src="/img/app-donante.jpg"
+            src={conBase("/img/app-donante.jpg")}
             alt="Vista de la app: mapa de la emergencia y opciones para ayudar"
             width={1520}
             height={1024}
